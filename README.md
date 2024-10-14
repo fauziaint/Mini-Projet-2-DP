@@ -117,7 +117,7 @@ Jika login berhasil sebagai user, pengguna akan diberikan menu untuk melihat, me
 Admin dapat menambah kursi (Tambah Kursi), menghapus kursi (Hapus Kursi), melihat daftar kursi (Lihat Kursi), atau keluar (Logout).
 ![image](https://github.com/user-attachments/assets/93781315-848c-4553-a132-208374fe7459)
 
--  User Menu:
+- User Menu:
 
 User dapat melihat daftar kursi (Lihat Kursi), memesan kursi (Pesan Kursi), mengembalikan kursi (Kembalikan Kursi), atau keluar (Logout).
 ![image](https://github.com/user-attachments/assets/def46ae6-1b26-47c9-b0c1-391154d9c1e2)
