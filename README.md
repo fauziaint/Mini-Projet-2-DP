@@ -117,7 +117,7 @@ Jika login berhasil sebagai user, pengguna akan diberikan menu untuk melihat, me
 Admin dapat menambah kursi (Tambah Kursi), menghapus kursi (Hapus Kursi), melihat daftar kursi (Lihat Kursi), atau keluar (Logout).
 ![image](https://github.com/user-attachments/assets/93781315-848c-4553-a132-208374fe7459)
 
--User Menu:
+- User Menu:
 
 User dapat melihat daftar kursi (Lihat Kursi), memesan kursi (Pesan Kursi), mengembalikan kursi (Kembalikan Kursi), atau keluar (Logout).
 ![image](https://github.com/user-attachments/assets/def46ae6-1b26-47c9-b0c1-391154d9c1e2)
@@ -132,6 +132,78 @@ Program akan terus berjalan dalam loop sampai pengguna memilih untuk logout.
 Di akhir program, fungsi main() dipanggil agar program berjalan.
 
 ![image](https://github.com/user-attachments/assets/118aa37c-1b90-48ac-8aec-2d5503e985cd)
+
+# Penjelasan Output
+
+- Saat Program Dimulai
+Ketika program dijalankan, pengguna akan melihat pesan pembuka:
+
+![Screenshot 2024-10-14 194518](https://github.com/user-attachments/assets/10c9dcc5-02d8-46bc-af3e-b8de7447716a)
+
+Pengguna diminta memilih untuk *register* (mendaftarkan akun user baru) atau *login* sebagai admin/user.
+
+- Register User
+Jika pengguna memilih opsi 1 (Register), outputnya akan meminta pengguna memasukkan username dan password :
+![Screenshot 2024-10-14 194640](https://github.com/user-attachments/assets/30438541-3fc7-44ee-9145-9359c9bdb3f8)
+
+Setelah mengisi data, akun baru berhasil dibuat sebagai user dan pesan konfirmasi ditampilkan.
+
+- Login sebagai Admin
+Jika pengguna memilih opsi 2 (Login) dan memasukkan username dan password admin (fauzia admin/fauzia123), maka setelah login, akan muncul menu khusus admin:
+
+![Screenshot 2024-10-14 194824](https://github.com/user-attachments/assets/6be312de-9988-48e1-b74c-6dad4ad9e421)
+
+Setelah login sebagai admin, pilihan yang tersedia adalah:
+- Tambah kursi : Admin dapat menambahkan kursi baru ke daftar kursi.
+- Hapus kursi : Admin dapat menghapus kursi dari daftar.
+- Lihat kursi : Admin dapat melihat daftar kursi yang tersedia dalam bentuk tabel.
+- Logout: Kembali ke menu login.
+
+- Login sebagai User
+Jika user login dengan username dan password yang sudah didaftarkan, outputnya adalah menu user:
+
+![Screenshot 2024-10-14 213230](https://github.com/user-attachments/assets/b1593834-eab7-4082-9e94-11f40f6bf07c)
+
+- Setelah login, user dapat memilih:
+- Lihat Kursi : Menampilkan kursi yang tersedia.
+- Pesan Kursi : Memesan kursi dengan jumlah dan lama waktu sewa.
+- Kembalikan Kursi : Mengembalikan kursi yang sudah disewa.
+- Logout : Kembali ke menu login.
+
+- Menambahkan Kursi (Admin)
+Jika admin memilih opsi "1" (Tambah Kursi), admin akan diminta memasukkan data kursi:
+
+![Screenshot 2024-10-14 213037](https://github.com/user-attachments/assets/47d932e1-9ead-41e9-848f-8a1a17f6b4f6)
+
+- Melihat Kursi
+Jika user atau admin memilih untuk melihat kursi, program akan menampilkan daftar kursi yang tersedia dalam bentuk tabel:
+
+![Screenshot 2024-10-14 213241](https://github.com/user-attachments/assets/4f90435c-0c43-4bd0-a10b-a93e2c4aca1f)
+
+- Memesan Kursi (User)
+Jika user memilih opsi untuk memesan kursi, output akan meminta informasi kursi yang akan disewa:
+
+![Screenshot 2024-10-14 213253](https://github.com/user-attachments/assets/b1d25030-5576-4510-9169-207a606bf056)
+
+Jika jumlah kursi yang dipesan melebihi stok yang tersedia, output akan menampilkan pesan kesalahan:
+
+![Screenshot 2024-10-14 215243](https://github.com/user-attachments/assets/76e4e307-16c5-4458-8639-344ec52f723a)
+
+- Mengembalikan Kursi (User) 
+Jika user memilih opsi untuk mengembalikan kursi, output akan meminta detail pengembalian:
+
+![Screenshot 2024-10-14 213302](https://github.com/user-attachments/assets/fbb5cef6-b4e2-4b57-a989-ff0e97294c0c)
+
+Jika user mencoba mengembalikan lebih dari jumlah yang dipesan, maka output akan memberikan pesan kesalahan:
+
+![Screenshot 2024-10-14 215944](https://github.com/user-attachments/assets/44b20d98-67d2-4d28-957c-366614c0de66)
+
+- Logout
+Setelah user atau admin memilih untuk logout, mereka akan kembali ke menu utama program:
+
+![Screenshot 2024-10-14 213319](https://github.com/user-attachments/assets/c50c1031-dce0-4eba-b9a6-36870d3ee9e8)
+
+
 
 
 
