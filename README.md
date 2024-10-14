@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/301e6fb8-48ec-48f7-a52e-3ca80fb040af)# Mini-Projet-2-DP
+# Mini-Projet-2-DP
 Nama : Fauzia Inanta Aurelia | NIM : 2409116044 | Sistem Informasi'B
 # Tema : Penyewaan Kursi Lipat
 
