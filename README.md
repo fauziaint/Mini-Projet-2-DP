@@ -66,6 +66,60 @@ Jika transaksi ditemukan dan jumlah kursi valid, kursi ditambahkan kembali ke st
 Jika data tidak valid (misalnya jumlah kursi melebihi yang dipesan), memberi peringatan bahwa pengembalian gagal.
 ![image](https://github.com/user-attachments/assets/99a4abf9-e49e-46bf-b1a7-651f5549dc27)
 
+5. Fungsi Pengguna: Register dan Login
+register(username, password): Fungsi ini mendaftarkan pengguna baru sebagai "user".
+
+Proses:
+
+Membuat dictionary baru berisi username, password, dan peran ('user'), lalu menambahkannya ke list pengguna.
+![image](https://github.com/user-attachments/assets/d7ed5170-5d01-48b6-b19c-d9c2a56c4e0f)
+login(username, password): Fungsi untuk memverifikasi login berdasarkan username dan password.
+
+Proses:
+
+Membandingkan username dan password yang dimasukkan dengan yang ada di list pengguna.
+Jika cocok, mengembalikan peran pengguna (admin atau user).
+Jika tidak cocok, mengembalikan None.
+![image](https://github.com/user-attachments/assets/395cbfd0-81fd-4bd4-8eff-8f54814368d7)
+
+6. Fungsi main(): Alur Utama Program
+1. Fungsi ini mengatur interaksi utama dengan pengguna. Berikut urutannya:
+
+Register atau Login: Pengguna bisa memilih untuk mendaftar akun baru atau login.
+![image](https://github.com/user-attachments/assets/f10e9d59-7f96-442b-8567-2f8f17c295a5)
+2. Register:
+
+Jika memilih opsi register (1), pengguna diminta memasukkan username dan password, kemudian akun baru disimpan ke list pengguna sebagai user.
+![image](https://github.com/user-attachments/assets/1875fdd3-7c1e-413d-92d6-9883c202b262)
+3. Login:
+
+Jika memilih opsi login (2), program meminta username dan password.
+Jika login berhasil sebagai admin, pengguna akan diberikan menu untuk menambah, menghapus, atau melihat kursi.
+Jika login berhasil sebagai user, pengguna akan diberikan menu untuk melihat, memesan, atau mengembalikan kursi.
+![image](https://github.com/user-attachments/assets/2f7794bd-1b2a-45be-b661-35fc7d7e82a9)
+4. Admin Menu:
+
+Admin dapat menambah kursi (Tambah Kursi), menghapus kursi (Hapus Kursi), melihat daftar kursi (Lihat Kursi), atau keluar (Logout).
+![image](https://github.com/user-attachments/assets/93781315-848c-4553-a132-208374fe7459)
+5.User Menu:
+
+User dapat melihat daftar kursi (Lihat Kursi), memesan kursi (Pesan Kursi), mengembalikan kursi (Kembalikan Kursi), atau keluar (Logout).
+![image](https://github.com/user-attachments/assets/def46ae6-1b26-47c9-b0c1-391154d9c1e2)
+6.Looping:
+
+Program akan terus berjalan dalam loop sampai pengguna memilih untuk logout.
+
+7.Program Utama
+Di akhir program, fungsi main() dipanggil agar program berjalan.
+![image](https://github.com/user-attachments/assets/118aa37c-1b90-48ac-8aec-2d5503e985cd)
+
+
+
+
+
+
+
+
 
 
 
