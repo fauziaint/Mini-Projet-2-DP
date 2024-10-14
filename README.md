@@ -1,3 +1,3 @@
 # Mini-Projet-2-DP
-Nama : Fauzia Inanta Aurelia NIM : 2409116044 
+Nama : Fauzia Inanta Aurelia | NIM : 2409116044 | 
 
