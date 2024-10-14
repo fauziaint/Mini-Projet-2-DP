@@ -105,12 +105,16 @@ Admin dapat menambah kursi (Tambah Kursi), menghapus kursi (Hapus Kursi), meliha
 
 User dapat melihat daftar kursi (Lihat Kursi), memesan kursi (Pesan Kursi), mengembalikan kursi (Kembalikan Kursi), atau keluar (Logout).
 ![image](https://github.com/user-attachments/assets/def46ae6-1b26-47c9-b0c1-391154d9c1e2)
+
+
 6.Looping:
 
 Program akan terus berjalan dalam loop sampai pengguna memilih untuk logout.
 
+
 7.Program Utama
 Di akhir program, fungsi main() dipanggil agar program berjalan.
+
 ![image](https://github.com/user-attachments/assets/118aa37c-1b90-48ac-8aec-2d5503e985cd)
 
 
